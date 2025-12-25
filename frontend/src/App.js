@@ -100,6 +100,12 @@ function App() {
           <Route path="/vip-store/araclar/klasik" element={<VipAraclarKlasik />} />
           <Route path="/vip-store/araclar/super" element={<VipAraclarSuper />} />
           <Route path="/vip-store/evmalikane" element={<VipEvMalikane />} />
+          <Route path="/vip-store/evmalikane/daire" element={<VipEvMalikaneDaire />} />
+          <Route path="/vip-store/evmalikane/villa" element={<VipEvMalikaneVilla />} />
+          <Route path="/vip-store/evmalikane/malikane" element={<VipEvMalikaneMalikane />} />
+          <Route path="/vip-store/evmalikane/sahil" element={<VipEvMalikaneSahil />} />
+          <Route path="/vip-store/evmalikane/penthouse" element={<VipEvMalikanePenthouse />} />
+          <Route path="/vip-store/evmalikane/ozel" element={<VipEvMalikaneOzel />} />
           <Route path="/vip-store/paketler" element={<VipPaketler />} />
           <Route path="/vip-store/isletmeler" element={<VipIsletmeler />} />
           <Route path="/vip-store/isletmeler/yemek" element={<VipIsletmelerYemek />} />
