@@ -1,0 +1,77 @@
+/* Grid Background Pattern */
+body {
+    background-color: #000000;
+    background-image: 
+        linear-gradient(rgba(95, 16, 185, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(117, 16, 185, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+    background-position: -1px -1px;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #7e14c5, #7e14c5);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #7e14c5, #7e14c5);
+}
+
+/* Selection Color */
+::selection {
+    background-color: rgba(109, 16, 185, 0.3);
+    color: #ffffff;
+}
+
+/* Animations */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-in-from-bottom {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-in {
+    animation: fade-in 0.6s ease-out;
+}
+
+.slide-in-from-bottom {
+    animation: slide-in-from-bottom 0.5s ease-out;
+}
+
+/* Gradient Text */
+.gradient-text {
+    background: linear-gradient(135deg, #7e14c5, #7e14c5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
